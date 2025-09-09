@@ -1,0 +1,55 @@
+@use 'variables' as v;
+
+body 
+{
+  margin: 0;
+  font-family: 'JetBrains Mono', monospace;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: v.$foreground_0;
+  background-color: v.$background_0;
+}
+
+input
+{
+  background-color: v.$background_0;
+  color: v.$foreground_0;
+  font-family: jetbrains mono, monospace;
+  font-size: 16px;
+  padding-left: 10px;
+  border-color: v.$foreground_0;
+  border-width: 2px;
+  border-radius: 6px;
+  border-style: solid;
+}
+
+input:active
+{
+  border-color: v.$foreground_1;
+}
+
+button
+{
+  background-color: v.$background_1;
+  color: v.$foreground_0;
+  font-family: jetbrains mono, monospace;
+  font-size: 28px;
+  font-weight: 900;
+  border-radius: 12px;
+  border-color: v.$foreground_0;
+  border-width: 4px;
+  border-style: solid;
+}
+
+button:hover
+{
+  background-color: v.$foreground_0;
+  color: v.$background_0;
+  cursor: pointer;
+}
+
+button:active
+{
+  background-color: v.$foreground_1;
+  border-color: v.$foreground_1;
+}

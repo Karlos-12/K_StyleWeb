@@ -1,0 +1,17 @@
+{
+  "name": "K_StyleWeb",
+  "version": "1.0.0",
+  "description": "K_Style library implementation for the web",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karlos-12/K_StyleWeb.git"
+  },
+  "keywords": [
+    "K_Style",
+    "K_Type"
+  ],
+  "author": "Karlos_12",
+  "scripts": {
+    "build": "sass K_StyleWeb/src/main.scss K_StyleWeb/dist/K_StyleWeb.min.css --style compressed"
+  }
+}
