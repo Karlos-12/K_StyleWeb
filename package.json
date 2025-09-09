@@ -12,6 +12,6 @@
   ],
   "author": "Karlos_12",
   "scripts": {
-    "build": "sass K_StyleWeb/src/main.scss K_StyleWeb/dist/K_StyleWeb.min.css --style compressed"
+    "build": "sass src/main.scss dist/K_StyleWeb.min.css --style compressed"
   }
 }
