@@ -10,7 +10,7 @@ body {
 input {
   background-color: black;
   color: #009410;
-  font-family: jetbrains mono, monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: 16px;
   padding-left: 10px;
   border-color: #009410;
@@ -26,7 +26,7 @@ input:active {
 button {
   background-color: #18191b;
   color: #009410;
-  font-family: jetbrains mono, monospace;
+  font-family: "JetBrains Mono", monospace;
   font-size: 28px;
   font-weight: 900;
   border-radius: 12px;
@@ -48,8 +48,8 @@ button:active {
 
 .Box_0 {
   border-radius: 12px;
-  border-color: #009410;
   border-width: 4px;
+  border-color: #009410;
   background-color: black;
 }
 
