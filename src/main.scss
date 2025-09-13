@@ -3,7 +3,7 @@
 body 
 {
   margin: 0;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: v.$font_0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: v.$foreground_0;
@@ -14,7 +14,7 @@ input
 {
   background-color: v.$background_0;
   color: v.$foreground_0;
-  font-family: jetbrains mono, monospace;
+  font-family: v.$font_0;
   font-size: 16px;
   padding-left: 10px;
   border-color: v.$foreground_0;
@@ -32,7 +32,7 @@ button
 {
   background-color: v.$background_1;
   color: v.$foreground_0;
-  font-family: jetbrains mono, monospace;
+  font-family: v.$font_0;
   font-size: 28px;
   font-weight: 900;
   border-radius: 12px;
@@ -57,7 +57,7 @@ button:active
 .Box_0
 {
   border-radius: 12px;
-  border-color: v.$foreground_0;
   border-width: 4px;
+  border-color: v.$foreground_0;
   background-color: v.$background_0;
 }
